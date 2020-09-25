@@ -1,0 +1,48 @@
+package dp;
+
+import java.util.*;
+
+public class Boj9461 {
+	static int number;
+	static int[] cache;
+
+	public static int solve(int curr) {
+		if (curr == number)
+			return 0;
+		if	(curr==number-1)
+			return 1;
+
+		
+		if (cache[curr] != 0)
+			return cache[curr];
+
+		cache[curr] += solve(curr + 1);
+		if (curr <= number - 5)
+			cache[curr] += solve(curr + 5);
+
+		return cache[curr];
+	}
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int caseNumber;
+		int[] result;
+		caseNumber=scanner.nextInt();
+		
+		result=new int[caseNumber];
+		
+		for(int i=0; i<caseNumber; i++) {
+		number = scanner.nextInt();
+		
+		cache = new int[number + 1];
+		
+		result[i]=solve(0);
+		}
+		
+		for(int i=0; i<caseNumber; i++)
+			System.out.println(result[i]);
+		
+		scanner.close();
+		return;
+	}
+}
