@@ -1,0 +1,5 @@
+﻿  11053_2.cpp
+Boj11053.obj : error LNK2005: _main이(가) 11053_2.obj에 이미 정의되어 있습니다.
+Boj11053.obj : error LNK2005: "int * dp" (?dp@@3PAHA)이(가) 11053_2.obj에 이미 정의되어 있습니다.
+Boj11053.obj : error LNK2005: "int * input" (?input@@3PAHA)이(가) 11053_2.obj에 이미 정의되어 있습니다.
+C:\Users\baam\Desktop\program\practicecode\c++\plzrun\DpCpp\Debug\Boj11053.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
