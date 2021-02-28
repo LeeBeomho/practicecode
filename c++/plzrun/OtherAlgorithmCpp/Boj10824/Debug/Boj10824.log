@@ -1,0 +1,4 @@
+﻿  Boj10824.cpp
+C:\Users\baam\Desktop\program\practicecode\c++\plzrun\OtherAlgorithmCpp\Boj10824\Boj10824.cpp(18,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\baam\Desktop\program\practicecode\c++\plzrun\OtherAlgorithmCpp\Boj10824\Boj10824.cpp(20,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Boj10824.vcxproj -> C:\Users\baam\Desktop\program\practicecode\c++\plzrun\OtherAlgorithmCpp\Debug\Boj10824.exe
